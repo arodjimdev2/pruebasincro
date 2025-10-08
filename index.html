@@ -13,22 +13,22 @@
             <ul>
                 <li><a href="#arriba">Inicio</a></li>
                 <li><a href="#articulillo">Destinos</a></li>
-                <li><a href="#">Videos</a></li>
+                <li><a href="#videos">Videos</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="articulillo">
             <div>
-                <article id="articulillo">
+                <article>
                 ¡Bienvenido, viajero rata! 
                 Has aterrizado en el único lugar de la red donde podrás demostrar a todos tu falta de criterio a la hora de elegir en qué gastar tu tiempo de ocio, porque eres francamente falto. Podrás reservar un viaje para irte diréctamente a la mierda, a la concha de tu prima o incluso, con suerte, a la verga.
                 Aquí no vendemos paquetes turísticos. Vendemos paquetes y además, turismo.
                 Y sí, somos los creadores de la aclamada página web "Chapas Chapín"
                 </article>
             </div>
-            <div>
+            <div class="fotos">
                 <figure>
                     <img src="img/img1.jpg" alt="Una foto.">
                     <figcaption>Mira qué contenta está esperando su viaje a la concha de su abuela</figcaption>
@@ -39,10 +39,11 @@
                 </figure>
                 <figure>
                     <img src="img/img3.jpg" alt="Una foto3.">
-                    <figcaption>Por supuesto fomentamos la salud. Este niño, por ejemplo, fuma porque, como todos sabemos, el tabaco cura la tuberculósis.</figcaption>
+                    <figcaption>Por supuesto fomentamos la salud. Este niño fuma porque, como todos sabemos, el tabaco cura la tuberculósis.</figcaption>
                 </figure>                
             </div>
         </section>
+        <section id="videos">
             <div>
                 <article>
                     Por supuesto no queremos que elijas tu viaje a ciegas, por lo que, por cortesía de la empresa "Videos videográficos", te presentamos algunos rodajes que hemos hecho con nuestros viajeros. En ellos podrás observar lo bien que se lo pasan en nuestros viajes y excursiones.
@@ -54,14 +55,20 @@
                     <q>Mira qué loquillos nuestros clientes, cómo se lo pasan de bien haciendo deporte.</q>
                 </div>
                 <div>
-
-                </div>
-                <div>
-                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SuBPkJq-5Ms?si=uFg_UzdzDnpwptx7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <q>No sé por qué tanto escándalo, lo estamos pasando bien.</q>
                 </div>
             </div>
+        </section>
         <section>
-            
+            <form action="">
+                <label for="text"></label>
+                <input type="text">
+                <label for="email"></label>
+                <input type="email" name="email" id="email">
+                <label for="texto"></label>
+                <textarea name="texto" id="texto"></textarea>
+            </form>
         </section>
     </main>
 
